@@ -1,0 +1,43 @@
+body, * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: helvetica
+}
+
+main {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid grey;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h1 {
+	letter-spacing: -1.50px;
+}
+
+h2 {
+	color: grey;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+nav a {
+	margin-right: 40px;
+	letter-spacing: -0.25px;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
