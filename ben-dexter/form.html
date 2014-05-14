@@ -14,20 +14,103 @@
                 <h1><a href="index.html">PLATFORM FEATURES</a></h1>
                 <h2>By Ben H. & Dexter L.</h2>
                 <nav>
-                    <a href="geo.html" alt="geolocation">Geolocation</a>
-                    <a href="camera.html" alt="Camera Access">Camera Access</a>
-                    <a href="#" alt="video Tag">Video Tag</a>
-                    <a href="audio.html" alt="Audio Tag">Audio Tag</a>
-                    <a href="form.html" alt="Form">Form</a>
+                    <a href="geo.html">Geolocation</a>
+                    <a href="camera.html">Camera Access</a>
+                    <a href="video.html">Video Tag</a>
+                    <a href="audio.html">Audio Tag</a>
+                    <a href="form.html">Form</a>
                 </nav>
             </header>
             <article>
                 <h1>Form AND Function</h1>
-
-                
+                <form id="payment">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <ul>
+                            <li>
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="Name" required>
+                            </li>
+                            <li>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="Name" required>
+                            </li>
+                            <li>
+                                <label for="email">email</label>
+                                <input type="email" id="email" name="Email" required>
+                            </li>
+                            <li>
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="Phone" required>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Billing Info</legend>
+                        <ul>
+                            <li>
+                                <label for="card-name">Name as it appears on card</label>
+                                <input type="text" id="card-name" name="Card Name" required>
+                            </li>
+                            <li>
+                                <label for="b-address">Address</label>
+                                <input type="text" id="b-address" name="Billing Address" required>
+                            </li>
+                            <li>
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" required>
+                            </li>
+                            <li>
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" required>
+                            </li>
+                            <li>
+                                <label for="zip">Zip</label>
+                                <input type="text" id="zip" name="zip" required>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Give us your money</legend>
+                        <ul>
+                            <li>
+                               <fieldset class="cardtype">
+                                    <legend>Card type</legend>
+                                    <ul>   
+                                        <li> 
+                                            <input id="visa" type="radio" name="cardtype">
+                                            <label for="visa">VISA</label>
+                                        </li>
+                                        <li> 
+                                            <input id="mc" type="radio" name="cardtype">
+                                            <label for="mc">MASTERCARD</label>
+                                        </li>
+                                        <li> 
+                                            <input id="amex" type="radio" name="cardtype">
+                                            <label for="amex">AMEX</label>
+                                        </li>
+                                    </ul>
+                               </fieldset>
+                            </li>
+                            <li>
+                                <label for="cardnumber">Card number</label>
+                                <input type="number" id="cardnumber" name="cardnumber" required>
+                            </li>
+                            <li>
+                                <label for="exp">Expiration</label>
+                                <input type="number" id="exp" name="Expiration-Number" required>
+                            </li>
+                            <li>
+                                <label for="cid">CID</label>
+                                <input type="number" id="cid" name="CID" required>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <button type="submit">Sell your soul</button>
+                    </fieldset> 
+                </form>
             </article>
         </main>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     </body>
 </html>
