@@ -10,7 +10,10 @@ body {
 main {
 	width: 1000px;
 	margin: auto;
-	border: 1px solid grey;
+}
+
+nav {
+	margin-bottom: 20px;
 }
 
 p {
